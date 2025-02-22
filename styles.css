@@ -31,11 +31,15 @@ body {
     animation: twinkle var(--duration) infinite alternate;
 }
 
+@font-face {
+  font-family: 'Intro';
+  src: url('intro.otf') format('truetype');
+}
+
 .header-text {
     margin-top: -31px;
     text-align: center;
     font-family: 'Intro', sans-serif;
-    src: url('intro.otf') format('truetype');
     font-size: 20px;
     font-weight: normal;
     color: #ffffff;
